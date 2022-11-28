@@ -18,6 +18,7 @@ import MyProducts from '../../Pages/Dashboard/MyProducts/MyProducts'
 import ReportProducts from '../../Pages/Dashboard/Dashboard/ReportProducts/ReportProducts'
 import Payment from '../../Pages/Dashboard/Dashboard/Payment/Payment'
 import ErrorDisplay from '../../Pages/Shared/ErrorDisplay/ErrorDisplay'
+import NotFound from '../../Pages/NotFound/NotFound'
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: '/signup',
         element: <SignUp></SignUp>,
+      },
+      {
+        path: '*',
+        element: <NotFound></NotFound>,
       },
       {
         path: '/category/:id',
