@@ -9,16 +9,12 @@ const UsedProducts = () => {
   const [productInfo, setProductInfo] = useState(null)
   console.log(categoryList)
 
-  // const {categoryList = []} =  useQuery({
-  //   queryKey: ['categoryList'],
-  //   queryFn: () => fetch(``)
-  //   .then( res => res.json())
-  // });
+
 
   return (
     <div>
-      <h2> Name: {categoryName} </h2>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <h2 className='text-center text-3xl py-5 font-semibold'> You Select  {categoryName} </h2>
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 mb-10">
         {categoryList.map((category) => (
           <UsedProductsCard
             key={category.service_id}

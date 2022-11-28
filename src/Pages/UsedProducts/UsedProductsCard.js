@@ -15,9 +15,9 @@ const UsedProductsCard = ({ category,setProductInfo }) => {
   } = category
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <img src={img} alt="Shoes" className="rounded-xl" />
+      <div className="card w-96 bg-red-100 shadow-xl h-full">
+        <figure className="px-10 pt-10 ">
+          <img src={img} alt="Shoes" className="rounded-xl h-64" />
         </figure>
         <div className="card-body items-center text-center">
   <h2 className="card-title">{productName}</h2>
