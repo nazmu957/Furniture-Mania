@@ -50,7 +50,7 @@ const AllBuyers = () => {
   }
   return (
     <div>
-      <h2>All Buyers</h2>
+      <h2 className='text-center text-xl py-5'>All Buyers</h2>
 
       <div className="overflow-x-auto">
         <table className="table w-full">

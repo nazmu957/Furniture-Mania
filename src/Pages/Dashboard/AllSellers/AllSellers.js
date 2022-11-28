@@ -65,7 +65,7 @@ const AllSellers = () => {
   }
   return (
     <div>
-      <h2>All SELLER</h2>
+      <h2 className="text-center text-xl py-5">All SELLER</h2>
 
       <div>
         <div className="overflow-x-auto">
