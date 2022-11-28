@@ -50,11 +50,11 @@ const MyProducts = () => {
   }
   return (
     <div>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-x-20  gap-y-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-5 mx-5">
         {products?.map((product) => (
-          <div key={product._id} className="card w-96 bg-base-100 shadow-xl">
+          <div key={product._id} className="card w-96 bg-base-100 shadow-xl ">
             <figure>
-              <img src={product.image} alt="Shoes" />
+              <img className="h-80 w-80" src={product.image} alt="Shoes" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
