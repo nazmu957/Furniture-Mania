@@ -114,7 +114,7 @@ const Login = () => {
             />
             <label className="label">
               {' '}
-              <span className="label-text">Forget Password?</span>
+              <strong><span className="label-text">Seller/Buyer/Admin Login With Email</span></strong>
             </label>
             {errors.password && (
               <p className="text-red-600">{errors.password?.message}</p>
