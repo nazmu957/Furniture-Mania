@@ -16,7 +16,7 @@ const Blog = () => {
         This makes code easier to understand, easier to maintain, and easier to
         reuse when possible. The state is an object that holds information about
         a certain component. Plain JavaScript functions don't have the ability
-        to store information. The code within them executes and "dissapears"
+        to store information. The code within them executes and 
         once the execution is finished. But thanks to state, React functional
         components can store information even after execution. When we need a
         component to store or "remember" something, or to act in a different way
