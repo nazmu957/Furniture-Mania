@@ -19,3 +19,7 @@
 ## Live Site Link
 
 https://used-products-3a243.web.app
+
+adminEmail: <sakib@gmail.com>
+
+adminPassword: <123456A@>
