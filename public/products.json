@@ -1,0 +1,89 @@
+[
+    {
+        
+        "categoryName": "Kitchen Furniture",
+        "categoryList": [
+            {
+                "productName": "kitchen1",
+                "sellerName": "name1",
+                "service_id": "01",
+                "yearsOfUse": "3",
+                "img": "https://i.ibb.co/mbBpXQv/ancient-red-sofa.jpg",
+                "resalePrice": "20.00",
+                "originalPrice": "30.00",
+                "location": "Dhaka",
+                "postingTime": "10.35am"
+            },
+            {
+                "productName": "kitchen2",
+                "sellerName": "name2",
+                "service_id": "02",
+                "yearsOfUse": "3",
+                "img": "https://i.ibb.co/mbBpXQv/ancient-red-sofa.jpg",
+                "resalePrice": "20.00",
+                "originalPrice": "30.00",
+                "location": "Dhaka",
+                "postingTime": "10.35am"
+            }
+            
+        ]
+    },
+    {
+        
+        "categoryName": "BedRoom Furniture",
+        "categoryList": [
+            {
+                "productName": "Bedroom1",
+                "sellerName": "Name4",
+                "service_id": "04",
+                "yearsOfUse": "4",
+                "img": "https://i.ibb.co/mbBpXQv/ancient-red-sofa.jpg",
+                "resalePrice": "20.00",
+                "originalPrice": "30.00",
+                "location": "Dhaka",
+                "postingTime": "10.35am"
+            },
+            {
+                "productName": "Bedroom2",
+                "sellerName": "Name5",
+                "service_id": "05",
+                "yearsOfUse": "5",
+                "img": "https://i.ibb.co/mbBpXQv/ancient-red-sofa.jpg",
+                "resalePrice": "20.00",
+                "originalPrice": "30.00",
+                "location": "Dhaka",
+                "postingTime": "10.35am"
+            }
+            
+        ]
+    },
+    {
+        
+        "categoryName": "Dinner Furniture",
+        "categoryList": [
+            {
+                "productName": "Dinner1",
+                "sellerName": "Name7",
+                "service_id": "07",
+                "yearsOfUse": "7",
+                "img": "https://i.ibb.co/mbBpXQv/ancient-red-sofa.jpg",
+                "resalePrice": "20.00",
+                "originalPrice": "30.00",
+                "location": "Dhaka",
+                "postingTime": "10.35am"
+            },
+            {
+                "productName": "Dinner2",
+                "sellerName": "Name8",
+                "service_id": "08",
+                "yearsOfUse": "8",
+                "img": "https://i.ibb.co/mbBpXQv/ancient-red-sofa.jpg",
+                "resalePrice": "20.00",
+                "originalPrice": "30.00",
+                "location": "Dhaka",
+                "postingTime": "10.35am"
+            }
+            
+        ]
+    }
+]
