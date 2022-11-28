@@ -1,4 +1,5 @@
 
+
 # Furniture Mania
 
 
@@ -15,6 +16,6 @@
 
 
 
-## 🔗 Live Site Links
+## Live Site Link
 
-used-products-3a243.web.app
+https://used-products-3a243.web.app
