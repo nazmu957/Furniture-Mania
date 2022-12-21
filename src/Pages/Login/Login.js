@@ -135,10 +135,10 @@ const Login = () => {
             Create new Account
           </Link>
         </p>
-        <div className="divider">OR</div>
+        {/* <div className="divider">OR</div>
         <button onClick={handleGoogleSignIn} className="btn btn-primary w-full">
           CONTINUE WITH GOOGLE
-        </button>
+        </button> */}
         
       </div>
     </div>
