@@ -1,7 +1,7 @@
 import React from 'react'
 import banner1 from '../../../assets/Banner1.png'
 import banner2 from '../../../assets/banner2.png'
-import banner3 from '../../../assets/banner3.png'
+import banner3 from '../../../assets/banner3.jpg'
 
 const Banner = () => {
   return (
