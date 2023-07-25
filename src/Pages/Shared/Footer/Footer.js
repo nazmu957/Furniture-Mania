@@ -27,7 +27,7 @@ const Footer = () => {
 <footer className="footer px-10 py-4 border-t bg-red-100 text-base-content border-base-300">
   <div className="items-center grid-flow-col">
     
-    <p>Furniture Mania Industries Ltd. <br/>Give best furniture  since 2002</p>
+    <p>Furniture Mania Industries Ltd. <br/>Give best furniture  since 2023</p>
   </div> 
   <div className="md:place-self-center md:justify-self-end">
     <div className="grid grid-flow-col gap-4">
