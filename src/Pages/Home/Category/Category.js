@@ -12,6 +12,7 @@ const Category = () => {
 
   return (
     <div>
+        <h1 className="text-[2rem] text-center font-semibold py-4">Furniture Category</h1>
       <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-3 py-14">
         {categories.map((category) => (
           <CategoryCard key={category._id} category={category}></CategoryCard>
