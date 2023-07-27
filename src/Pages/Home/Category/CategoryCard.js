@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const CategoryCard = ({ category }) => {
   const { _id, categoryName, condition } = category
   return (
+    //category
    <div className="flex items-center justify-center ">
       <div className="card w-96 bg-red-100 shadow-xl py-5">
       <div className="card-body">
