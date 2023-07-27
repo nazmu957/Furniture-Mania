@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Category.css'
 
 const CategoryCard = ({ category }) => {
   const { _id, categoryName, condition } = category
   return (
     //category
-   <div className="flex items-center justify-center ">
-      <div className="card w-96 bg-red-100 shadow-xl py-5">
+   <div className="flex items-center justify-center">
+      <div className="card w-96 bg-red-100 shadow-xl py-5 background">
       <div className="card-body">
         <h2 className="card-title">
           {categoryName}
