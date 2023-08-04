@@ -19,6 +19,7 @@ import ReportProducts from '../../Pages/Dashboard/Dashboard/ReportProducts/Repor
 import Payment from '../../Pages/Dashboard/Dashboard/Payment/Payment'
 import ErrorDisplay from '../../Pages/Shared/ErrorDisplay/ErrorDisplay'
 import NotFound from '../../Pages/NotFound/NotFound'
+import Products from '../../Pages/Home/Products/Products'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
+        loader: () => fetch('https://used-products-server.vercel.app/categories'),
       },
       {
         path: '/blog',
