@@ -20,6 +20,7 @@ import Payment from '../../Pages/Dashboard/Dashboard/Payment/Payment'
 import ErrorDisplay from '../../Pages/Shared/ErrorDisplay/ErrorDisplay'
 import NotFound from '../../Pages/NotFound/NotFound'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
+        
       },
       {
         path: '/blog',
