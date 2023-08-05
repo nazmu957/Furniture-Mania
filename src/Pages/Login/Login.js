@@ -78,7 +78,7 @@ const Login = () => {
     <div>
             <div className="h-[800px] flex justify-center items-center bg-red-100  ">
       <div className="w-96 p-7 py-10">
-         <h2 className="text-xl text-center">Login</h2>
+         <h2 className="text-xl text-center">Please Login</h2>
          <form onSubmit={handleSubmit(handleLogin)}>
            <div className="form-control w-full max-w-xs">
              <label className="label">
