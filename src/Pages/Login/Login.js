@@ -129,7 +129,7 @@ const Login = () => {
             {loginError && <p className="text-red-600">{loginError}</p>}
           </div>
         </form>
-        <p>
+        <p className="pt-4">
           New to Furniture Mania{' '}
           <Link className="text-secondary" to="/signup">
             Create new Account
