@@ -6,9 +6,9 @@ const Footer = () => {
            <footer className="footer p-10 bg-red-100 text-base-content">
   <div>
     <span className="footer-title">Services</span> 
-    <a className="link link-hover">Sell Chair</a> 
-    <a className="link link-hover">Sell table</a> 
-    <a className="link link-hover">Sell Kitchen Furniture</a> 
+    <a className="link link-hover font-bold">Sell Chair</a> 
+    <a className="link link-hover font-bold">Sell table</a> 
+    <a className="link link-hover font-bold">Sell Kitchen Furniture</a> 
  
   </div> 
   <div>
