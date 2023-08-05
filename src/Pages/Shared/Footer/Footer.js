@@ -13,15 +13,15 @@ const Footer = () => {
   </div> 
   <div>
     <span className="footer-title">Furniture Mania</span> 
-    <a className="link link-hover">About us</a> 
-    <a className="link link-hover">Contact</a>  
-    <a className="link link-hover">Discount Policy</a>
+    <a className="link link-hover font-bold">About us</a> 
+    <a className="link link-hover font-bold">Contact</a>  
+    <a className="link link-hover font-bold">Discount Policy</a>
   </div> 
   <div>
     <span className="footer-title">Legal</span> 
-    <a className="link link-hover">Terms of use</a> 
-    <a className="link link-hover">Privacy policy</a> 
-    <a className="link link-hover">Cookie policy</a>
+    <a className="link link-hover font-bold">Terms of use</a> 
+    <a className="link link-hover font-bold">Privacy policy</a> 
+    <a className="link link-hover font-bold">Cookie policy</a>
   </div>
 </footer> 
 <footer className="footer px-10 py-4 border-t bg-red-100 text-base-content border-base-300">
