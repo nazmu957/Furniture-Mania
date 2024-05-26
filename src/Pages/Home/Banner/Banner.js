@@ -1,6 +1,4 @@
 import React from 'react'
-import banner1 from '../../../assets/Banner1.png'
-import banner2 from '../../../assets/banner2.png'
 import banner3 from '../../../assets/banner3.jpg'
 
 const Banner = () => {
@@ -11,10 +9,10 @@ const Banner = () => {
           <img src={banner3} className="w-full" />
         </div>
         <div id="item2" className="carousel-item w-full">
-          <img src={banner2} className="w-full" />
+          <img src={banner3} className="w-full" />
         </div>
         <div id="item3" className="carousel-item w-full">
-          <img src={banner1} className="w-full" />
+          <img src={banner3} className="w-full" />
         </div>
       </div>
       <div className="flex justify-center w-full py-5 gap-2">

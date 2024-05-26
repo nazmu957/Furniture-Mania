@@ -1,13 +1,13 @@
 import React from 'react'
 import singleSofa from '../../../assets/products/single-sofa.jpg'
-import banner4 from '../../../assets/banner4.jpg'
+
 import { Link } from 'react-router-dom'
 
 const SingleReview = () => {
   return (
     
     <div className="hero ">
-      <img src={banner4} alt=""/>
+      <img  alt=""/>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center">
     <div className="text-white">

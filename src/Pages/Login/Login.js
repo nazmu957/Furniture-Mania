@@ -5,7 +5,7 @@ import { AuthContext } from '../../Context/AuthProvider'
 import { GoogleAuthProvider } from 'firebase/auth'
 import useToken from '../../hooks/useToken'
 import SocialLogin from '../Shared/SocialLogin/SocialLogin'
-import login from '../../assets/login.svg'
+
 
 const Login = () => {
   const { providerLogin } = useContext(AuthContext)
@@ -74,7 +74,7 @@ const Login = () => {
   return (
     <div className="hero  bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src={login} className="max-w-sm rounded-lg shadow-2xl" />
+    <img  className="max-w-sm rounded-lg shadow-2xl" />
     <div>
             <div className="h-[800px] flex justify-center items-center bg-red-100  ">
       <div className="w-96 p-7 py-10">

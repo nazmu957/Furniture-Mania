@@ -4,7 +4,7 @@ import toast from 'react-hot-toast'
 import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../../Context/AuthProvider'
 import useToken from '../../hooks/useToken'
-import login from '../../assets/login.svg'
+
 
 const SignUp = () => {
   const {
@@ -63,7 +63,7 @@ const SignUp = () => {
 
     <div className="hero bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse ">
-    <img src={login} className="max-w-sm rounded-lg shadow-2xl" />
+    <img  className="max-w-sm rounded-lg shadow-2xl" />
     <div>
             <div className="h-[800px] flex justify-center items-center bg-red-100">
        <div className="w-96 p-7">
